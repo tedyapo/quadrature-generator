@@ -934,8 +934,8 @@
 <part name="J_F_IN" library="quadrature_generator" deviceset="EDGE_LAUNCH_JACK" device=""/>
 <part name="U$4" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="R1" library="quadrature_generator" deviceset="R" device="1206" value="560"/>
-<part name="R2" library="quadrature_generator" deviceset="R" device="0805" value="4k7"/>
-<part name="R3" library="quadrature_generator" deviceset="R" device="0805" value="4k7"/>
+<part name="R2" library="quadrature_generator" deviceset="R" device="0805" value="5k1"/>
+<part name="R3" library="quadrature_generator" deviceset="R" device="0805" value="4k3"/>
 <part name="C1" library="quadrature_generator" deviceset="C" device="0805" value="10n"/>
 <part name="U$5" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="U$6" library="quadrature_generator" deviceset="GND" device=""/>
@@ -945,7 +945,7 @@
 <part name="IC1" library="quadrature_generator" deviceset="74LVC1G14" device=""/>
 <part name="U$11" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$12" library="quadrature_generator" deviceset="GND" device=""/>
-<part name="C2" library="quadrature_generator" deviceset="C" device="0805" value="100n"/>
+<part name="C2" library="quadrature_generator" deviceset="C" device="0805" value="1u"/>
 <part name="U$13" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$14" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="IC3" library="quadrature_generator" deviceset="74LVC04" device=""/>
@@ -954,7 +954,7 @@
 <part name="U$18" library="quadrature_generator" deviceset="USB_JACK" device=""/>
 <part name="U$19" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="R4" library="quadrature_generator" deviceset="R" device="1206" value="27"/>
-<part name="C3" library="quadrature_generator" deviceset="C" device="0805" value="1u"/>
+<part name="C3" library="quadrature_generator" deviceset="C" device="0805" value="100n"/>
 <part name="U$20" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$21" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="IC2" library="quadrature_generator" deviceset="74LVC74" device=""/>
@@ -968,10 +968,10 @@
 <part name="U$29" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$30" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="R5" library="quadrature_generator" deviceset="R" device="1206" value="27"/>
-<part name="C4" library="quadrature_generator" deviceset="C" device="0805" value="1u"/>
+<part name="C4" library="quadrature_generator" deviceset="C" device="0805" value="100n"/>
 <part name="U$3" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$8" library="quadrature_generator" deviceset="GND" device=""/>
-<part name="C5" library="quadrature_generator" deviceset="C" device="0805" value="100n"/>
+<part name="C5" library="quadrature_generator" deviceset="C" device="0805" value="1u"/>
 <part name="U$10" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$15" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="C6" library="quadrature_generator" deviceset="C" device="0805" value="10n"/>
@@ -991,13 +991,13 @@
 <part name="U$41" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$42" library="quadrature_generator" deviceset="SOLDER_BRIDGE" device=""/>
 <part name="U$43" library="quadrature_generator" deviceset="SOLDER_BRIDGE" device=""/>
-<part name="C7" library="quadrature_generator" deviceset="C" device="0805" value="100n"/>
+<part name="C7" library="quadrature_generator" deviceset="C" device="0805" value="1u"/>
 <part name="U$44" library="quadrature_generator" deviceset="+3.3V" device=""/>
 <part name="U$45" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="IC6" library="quadrature_generator" deviceset="REGULATOR_3TERM" device="" value="78L33"/>
 <part name="U$46" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="C8" library="quadrature_generator" deviceset="C" device="0805" value="1u"/>
-<part name="C9" library="quadrature_generator" deviceset="C" device="0805" value="100n"/>
+<part name="C9" library="quadrature_generator" deviceset="C" device="0805" value="1u"/>
 <part name="U$47" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="U$48" library="quadrature_generator" deviceset="GND" device=""/>
 <part name="U$49" library="quadrature_generator" deviceset="+3.3V" device=""/>

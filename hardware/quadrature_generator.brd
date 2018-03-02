@@ -547,14 +547,14 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C1" library="quadrature_generator" package="0805" value="10n" x="14.9225" y="30.48" rot="R180"/>
 <element name="C10" library="quadrature_generator" package="0805" value="1u" x="23.495" y="11.1125" rot="R270"/>
 <element name="C11" library="quadrature_generator" package="0805" value="100n" x="8.255" y="3.175"/>
-<element name="C2" library="quadrature_generator" package="0805" value="100n" x="19.3675" y="36.83" rot="R180"/>
-<element name="C3" library="quadrature_generator" package="0805" value="1u" x="37.7825" y="34.6075" rot="R180"/>
-<element name="C4" library="quadrature_generator" package="0805" value="1u" x="38.1" y="14.605" rot="R180"/>
-<element name="C5" library="quadrature_generator" package="0805" value="100n" x="37.7825" y="36.83" rot="R180"/>
+<element name="C2" library="quadrature_generator" package="0805" value="1u" x="19.3675" y="36.83" rot="R180"/>
+<element name="C3" library="quadrature_generator" package="0805" value="100n" x="37.7825" y="34.6075" rot="R180"/>
+<element name="C4" library="quadrature_generator" package="0805" value="100n" x="38.1" y="14.605" rot="R180"/>
+<element name="C5" library="quadrature_generator" package="0805" value="1u" x="37.7825" y="36.83" rot="R180"/>
 <element name="C6" library="quadrature_generator" package="0805" value="10n" x="8.255" y="24.765" rot="R90"/>
-<element name="C7" library="quadrature_generator" package="0805" value="100n" x="38.1" y="16.8275" rot="R180"/>
+<element name="C7" library="quadrature_generator" package="0805" value="1u" x="38.1" y="16.8275" rot="R180"/>
 <element name="C8" library="quadrature_generator" package="0805" value="1u" x="8.255" y="10.795"/>
-<element name="C9" library="quadrature_generator" package="0805" value="100n" x="26.67" y="28.575" rot="R180"/>
+<element name="C9" library="quadrature_generator" package="0805" value="1u" x="26.67" y="28.575" rot="R180"/>
 <element name="IC1" library="quadrature_generator" package="SOT23-5" value="74LVC1G14" x="19.3675" y="33.655" rot="R270"/>
 <element name="IC2" library="quadrature_generator" package="SOIC14_NARROW" value="74LVC74" x="29.21" y="11.1125"/>
 <element name="IC3" library="quadrature_generator" package="SOT23-5" value="74LVC04" x="37.7825" y="31.75" rot="R270"/>
@@ -565,8 +565,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="J_IN_PHASE" library="quadrature_generator" package="EDGE_LAUNCH_RF_CON" value="EDGE_LAUNCH_JACK" x="44.45" y="30.7975" rot="R90"/>
 <element name="J_QUADRATURE" library="quadrature_generator" package="EDGE_LAUNCH_RF_CON" value="EDGE_LAUNCH_JACK" x="44.45" y="8.89" rot="R90"/>
 <element name="R1" library="quadrature_generator" package="R1206" value="560" x="9.8425" y="30.48" rot="R180"/>
-<element name="R2" library="quadrature_generator" package="R0805" value="4k7" x="14.9225" y="36.83" rot="R180"/>
-<element name="R3" library="quadrature_generator" package="R0805" value="4k7" x="19.05" y="30.48"/>
+<element name="R2" library="quadrature_generator" package="R0805" value="5k1" x="14.9225" y="36.83" rot="R180"/>
+<element name="R3" library="quadrature_generator" package="R0805" value="4k3" x="19.05" y="30.48"/>
 <element name="R4" library="quadrature_generator" package="R1206" value="27" x="37.7825" y="25.7175" rot="R270"/>
 <element name="R5" library="quadrature_generator" package="R1206" value="27" x="38.1" y="6.0325" rot="R270"/>
 <element name="U$1" library="quadrature_generator" package="FT37_TRIFILAR_VERT_NC" value="FT37_TRIFILAR_1" x="14.9225" y="20.32" rot="R180"/>

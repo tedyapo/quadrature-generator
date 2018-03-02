@@ -302,15 +302,15 @@
 <package name="SOLDER_BRIDGE">
 <smd name="1" x="0" y="0" dx="1.778" dy="0.381" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
 <smd name="2@1" x="1.27" y="0" dx="1.27" dy="0.381" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-0.635" y1="-0.635" x2="1.27" y2="0.635" layer="29"/>
 <text x="-2.2225" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-0.762" y1="0.762" x2="1.397" y2="0.762" width="0.254" layer="21"/>
-<wire x1="1.397" y1="0.762" x2="1.397" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="1.397" y1="-0.762" x2="-0.762" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-0.762" y1="-0.762" x2="-0.762" y2="0.762" width="0.254" layer="21"/>
+<wire x1="-0.889" y1="0.889" x2="1.524" y2="0.889" width="0.254" layer="21"/>
+<wire x1="1.524" y1="0.889" x2="1.524" y2="-0.889" width="0.254" layer="21"/>
+<wire x1="1.524" y1="-0.889" x2="-0.889" y2="-0.889" width="0.254" layer="21"/>
+<wire x1="-0.889" y1="-0.889" x2="-0.889" y2="0.889" width="0.254" layer="21"/>
 <smd name="2@2" x="0.3175" y="0.635" dx="2.286" dy="0.381" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="2@3" x="0.3175" y="-0.635" dx="2.286" dy="0.381" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-0.762" y1="-0.762" x2="1.397" y2="0.762" layer="29"/>
 </package>
 <package name="SOT-89">
 <smd name="3" x="1.5" y="0" dx="0.7" dy="1.1" layer="1"/>

@@ -81,6 +81,12 @@
 <text x="26.035" y="19.685" size="1.27" layer="21" font="vector" ratio="13">Fin</text>
 <text x="32.7025" y="19.685" size="1.27" layer="21" font="vector" ratio="13">I/Q</text>
 <text x="32.7025" y="23.495" size="1.27" layer="21" font="vector" ratio="13">Fin</text>
+<text x="23.1775" y="5.08" size="1.27" layer="21" font="vector" ratio="13">Quadrature</text>
+<text x="23.1775" y="3.175" size="1.27" layer="21" font="vector" ratio="13">Generator</text>
+<text x="36.83" y="20.955" size="1.27" layer="21" font="vector" ratio="13">3/2/2018</text>
+<text x="36.83" y="19.05" size="1.27" layer="21" font="vector" ratio="13">TCY</text>
+<text x="29.845" y="21.59" size="1.27" layer="21" font="vector" ratio="13">Out</text>
+<text x="23.1775" y="21.59" size="1.27" layer="21" font="vector" ratio="13">Src</text>
 </plain>
 <libraries>
 <library name="quadrature_generator">
@@ -309,15 +315,15 @@
 <package name="SOLDER_BRIDGE">
 <smd name="1" x="0" y="0" dx="1.778" dy="0.381" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
 <smd name="2@1" x="1.27" y="0" dx="1.27" dy="0.381" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-0.635" y1="-0.635" x2="1.27" y2="0.635" layer="29"/>
 <text x="-2.2225" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-0.762" y1="0.762" x2="1.397" y2="0.762" width="0.254" layer="21"/>
-<wire x1="1.397" y1="0.762" x2="1.397" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="1.397" y1="-0.762" x2="-0.762" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-0.762" y1="-0.762" x2="-0.762" y2="0.762" width="0.254" layer="21"/>
+<wire x1="-0.889" y1="0.889" x2="1.524" y2="0.889" width="0.254" layer="21"/>
+<wire x1="1.524" y1="0.889" x2="1.524" y2="-0.889" width="0.254" layer="21"/>
+<wire x1="1.524" y1="-0.889" x2="-0.889" y2="-0.889" width="0.254" layer="21"/>
+<wire x1="-0.889" y1="-0.889" x2="-0.889" y2="0.889" width="0.254" layer="21"/>
 <smd name="2@2" x="0.3175" y="0.635" dx="2.286" dy="0.381" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="2@3" x="0.3175" y="-0.635" dx="2.286" dy="0.381" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-0.762" y1="-0.762" x2="1.397" y2="0.762" layer="29"/>
 </package>
 <package name="SOT-23">
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>

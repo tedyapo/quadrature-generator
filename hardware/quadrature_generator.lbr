@@ -157,6 +157,8 @@
 <rectangle x1="-7.62" y1="-3.175" x2="7.62" y2="3.175" layer="30"/>
 <rectangle x1="-7.3025" y1="-3.175" x2="7.3025" y2="3.175" layer="41"/>
 <rectangle x1="-1.905" y1="-3.175" x2="1.905" y2="3.81" layer="41"/>
+<text x="10.16" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="12.7" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="R1206">
 <smd name="P$1" x="-1.55" y="0" dx="1.6" dy="1.9" layer="1"/>
@@ -316,10 +318,8 @@
 <circle x="-3.78" y="-1.36" radius="0.35735" width="0.127" layer="21"/>
 </package>
 <package name="SOLDER_BRIDGE">
-<smd name="P$1" x="0" y="0" dx="1.778" dy="0.381" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="1.27" y="0" dx="1.27" dy="0.381" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
-<wire x1="1.27" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="1"/>
-<wire x1="1.27" y1="-0.635" x2="-0.635" y2="-0.635" width="0.4064" layer="1"/>
+<smd name="1" x="0" y="0" dx="1.778" dy="0.381" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2@1" x="1.27" y="0" dx="1.27" dy="0.381" layer="1" rot="R270" stop="no" thermals="no" cream="no"/>
 <rectangle x1="-0.635" y1="-0.635" x2="1.27" y2="0.635" layer="29"/>
 <text x="-2.2225" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
@@ -327,6 +327,8 @@
 <wire x1="1.397" y1="0.762" x2="1.397" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="1.397" y1="-0.762" x2="-0.762" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.762" y1="-0.762" x2="-0.762" y2="0.762" width="0.254" layer="21"/>
+<smd name="2@2" x="0.3175" y="0.635" dx="2.286" dy="0.381" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="2@3" x="0.3175" y="-0.635" dx="2.286" dy="0.381" layer="1" stop="no" thermals="no" cream="no"/>
 </package>
 <package name="SOT-89">
 <smd name="3" x="1.5" y="0" dx="0.7" dy="1.1" layer="1"/>
@@ -939,8 +941,8 @@
 <devices>
 <device name="" package="SOLDER_BRIDGE">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2@1 2@2 2@3"/>
 </connects>
 <technologies>
 <technology name=""/>

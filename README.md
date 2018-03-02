@@ -1,2 +1,2 @@
-# spectrum-analyzer-vna-adapter
-Adapter for using spectrum analyzer with tracking generator as simple VNA
+# quadrature-generator
+Adapter for using spectrum analyzer tracking generator (in zero span) as a digital clock source with I/Q outputs
